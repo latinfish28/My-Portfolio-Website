@@ -1,0 +1,28 @@
+
+body{
+    text-align: center;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+td{
+    border-bottom: 2px solid rgb(109, 119, 177);
+}
+
+h1{
+    width: 760px;
+    margin:0 auto;
+    background-color: lavender;
+    padding: .5em;
+}
+
+table{
+    width: 790px;
+    margin:0 auto;
+    background-color: lavender;
+    padding: .5em;
+}

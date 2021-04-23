@@ -1,0 +1,38 @@
+div{
+    width: 350px;
+    height: 200px;
+    margin: 100px 0px 0px 100px;
+    background-color: cornflowerblue;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: -40px 0px 0px 115px;
+}
+
+img{
+    -webkit-animation: 'rotate1' 1s linear infinite;
+    animation: 'rotate1' 3s linear infinite;
+}
+
+@keyframes color {
+    0%   {background-color: aliceblue;}
+    25%  {background-color: lightblue;}
+    50%  {background-color: darkblue;}
+    75%  {background-color: navy;}
+    100% {background-color: powderblue;}
+  }
+
+@-webkit-keyframes rotate1{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+@keyframes rotate1{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}

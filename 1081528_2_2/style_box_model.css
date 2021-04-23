@@ -1,0 +1,25 @@
+div{
+    border:2px solid navy;
+    margin:20px;
+    text-align: center;
+    margin-top: 0px;
+    font: 18px monospace;
+}
+
+#BoxContent{
+    padding-bottom: 150px;
+    border: 3px dashed cadetblue;
+    background-color: white;
+}
+
+#BoxPadding{
+    background-color: white;
+}
+
+#BoxBorder{
+    background-color: steelblue;
+}
+
+#BoxMargin{
+    border: 5px dotted royalblue;
+}
