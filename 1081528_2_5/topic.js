@@ -17,4 +17,3 @@ function setMonthAndDay(startMonth, startDay){
     startDate.setSeconds(0);
 }
 
-setMonthAndDay(5,1);
